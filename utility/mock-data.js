@@ -37,7 +37,7 @@ const stories = [
     },
 ]
 
-const subscriptions = [
+const subscibers = [
     {
         id: 1,
         username: 'bob1'
@@ -52,7 +52,7 @@ const subscriptions = [
 //junction table to split many to many relationship,
 // also used to calculate number of subscibers 
 // set so that 3 people subscibed to art and 1 person subscribed to music
-const categorySubscriptions = [
+const categorySubscibers = [
     {
         categoryId: 1,
         subscriptionId: 1
@@ -78,7 +78,7 @@ const categorySubscriptions = [
 module.exports = {
     categories,
     stories,
-    subscriptions,
-    categorySubscriptions
+    subscibers,
+    categorySubscibers
   
 }
