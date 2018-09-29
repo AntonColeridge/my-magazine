@@ -12,7 +12,7 @@ const numberOfSubscibers = (categorySubscibers, categories) => {
             return element.categoryId == id;
         })
 
-        //build object with name, id,subsciber count and push to results array[x]
+
 
         results.push({
             name,
